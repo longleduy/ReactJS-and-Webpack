@@ -1,0 +1,8 @@
+* Vấn đề :
+    Khi truy cập 1 trang web, cần 1 khoảng thời gian để trình duyệt tải các thư viện or thành phần cần thiết về
+    => mất nhiều time.
+* Giải quyết : project sau khi build sẽ chia ra thành : bundle.js và vendor.js
+    - Lần đầu vào trang web : tải bundle.js và vender.js về => lưu vào cache.
+    - Các lần sau: 
+        + Bundle.js : chứa các Component! nội dung thay đổi => luôn tải về.
+        + Vendor.js : luôn dữ nguyên ( thường là các module trong dependencies)! Đã lưu cache => chỉ cần lấy ra dùng

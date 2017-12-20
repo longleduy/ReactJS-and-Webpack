@@ -1,0 +1,115 @@
+* {
+font-family: 'Courier New';
+font-size: 17px;
+}
+.divAddnew a{
+    color: black;
+}
+.divAddnew a:hover{
+color: red;
+}
+.divTxt input[type="text"] {
+    font-size: 15px;
+}
+.divBtn{
+text-align: center;
+padding-top: 20px;
+}
+.divBtn input{
+    width: 80px;
+}
+.divSearch{
+    margin-top: 20px;
+}
+.divSearch input[type="text"] {
+    width: 80%;
+    height: 35px;
+    border-style: none;
+    border-bottom-style: double;
+    background-color: white;
+    border-bottom-color: #F0EBEA;
+padding: 10px 0 10px 20px; 
+
+}
+.divSearch input[type="text"]:focus {
+    background-color: #f9f9f9;
+}
+.btnSearch{
+    border-style: double;
+
+    background-color: #f9f9f9;
+    height: 35px;
+}
+.divSelect{
+    width: 100%;
+    margin-top: 20px;
+    height: 35px;
+    border-style: none;
+    border-bottom-style: double;
+    background-color: white;
+    border-bottom-color: #F0EBEA;
+    padding: 10px 0 0px 10px;
+}
+.divSelect select>option{
+    text-align: center;
+}
+.divSelect:hover{
+    background-color: #f9f9f9;
+}
+.flatInput{
+    text-align: center;
+    width: 100%;
+    height: 35px;
+    border-style: none;
+    border-bottom-style: double;
+    background-color: white;
+    border-bottom-color: #F0EBEA;
+padding: 10px 0 10px 20px; 
+}
+.flatInput-empty{
+    background-color: red;
+}
+.flatInput:focus{
+    background-color: #f9f9f9;
+}
+.flatSelect{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    height: 35px;
+    border-style: none;
+    border-bottom-style: double;
+    background-color: white;
+    border-bottom-color: #F0EBEA;
+    padding: 10px 0 0px 40px;
+}
+.flatSelect:hover{
+    background-color: #f9f9f9;
+}
+
+.flatButton{
+    background-color: #f9f9f9;
+    border-color: #F0EBEA;
+    color: black;
+}
+.flatPanel{
+    background-color: #f9f9f9;
+}
+.btn-level{
+    background-color: #3a3a3a;
+
+    color: white;
+}
+.btn-level-size{
+    width: 100px;
+}
+.btn-level:hover{
+    color: white;
+}
+.btn-level:focus{
+    color: white;
+}
+.btn-valid{
+    border-color: red;
+    border-width: 2px;
+}

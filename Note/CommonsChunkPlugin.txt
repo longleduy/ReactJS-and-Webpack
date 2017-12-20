@@ -1,0 +1,2 @@
+* Vấn đề: Dung lượng file bundle.js và vendor.js khá lớn ( do cả 2 đều chứa các lib react, redux => thừ thãi).
+* Giải pháp:  Sử dụng CommonsChunkPlugin để optimize ( tách thư viện ra khỏi bundle.js)
