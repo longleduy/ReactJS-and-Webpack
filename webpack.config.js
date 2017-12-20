@@ -9,6 +9,16 @@ const VENDOR_LIBS = [
     "react",
     "react-dom",
 ];
+const devServer = {
+    port : 8085,
+    disableHostCheck : true,
+    historyApiFallback : true,
+    overlay : true,
+    stats : 'minimal',
+    inline : true,
+    compress : true,
+    contentBase : '/'
+};
 module.exports = {
     entry: {
         bundle: './src/JobManager/index.js',
@@ -58,4 +68,5 @@ module.exports = {
     ],
     //TODO: Trace log
     devtool: '#eval-inline-source-map',
+    devServer
 }

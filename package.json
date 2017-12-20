@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        
-        "clean" : "rimraf dist", 
-        "webpack": "npm run clean && webpack"
+        "clean": "rimraf dist",
+        "webpack": "npm run clean && webpack",
+        "start" : "webpack-dev-server"
     },
     "repository": {
         "type": "git",
